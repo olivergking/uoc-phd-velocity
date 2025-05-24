@@ -1,0 +1,1 @@
+curl -s "https://dataverse.geus.dk/api/datasets/:persistentId/dirindex?persistentId=doi:10.22008/FK2/LFZLZN" | rg -o --pcre2 "/api/access/datafile/\d+(?=.*IV_ROTR_(2017|2018).*\.nc)" | for /F "delims=" %u in ('findstr /r /c:"/api/access/datafile"') do curl -OJ "https://dataverse.geus.dk%u"

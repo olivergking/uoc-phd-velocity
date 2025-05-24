@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "aws",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3413" } },
+"features": [
+{ "type": "Feature", "properties": { "stid": "KAN_B", "timestamp": "2023-01-01T00:00:00", "lat": 67.1252, "lon": -50.1832, "alt": 350.0 }, "geometry": { "type": "Point", "coordinates": [ -226762.339842049637809, -2499819.278750270139426 ] } },
+{ "type": "Feature", "properties": { "stid": "KAN_L", "timestamp": "2024-05-13T18:00:00", "lat": 67.093372, "lon": -49.968567, "alt": 631.4 }, "geometry": { "type": "Point", "coordinates": [ -217706.690013313083909, -2504221.345266909804195 ] } },
+{ "type": "Feature", "properties": { "stid": "KAN_M", "timestamp": "2024-05-13T21:00:00", "lat": 67.068258, "lon": -48.853229, "alt": 1272.3 }, "geometry": { "type": "Point", "coordinates": [ -169110.586035078275017, -2510806.111577784176916 ] } },
+{ "type": "Feature", "properties": { "stid": "KAN_U", "timestamp": "2024-05-13T18:00:00", "lat": 67.000784, "lon": -47.035156, "alt": 1830.9 }, "geometry": { "type": "Point", "coordinates": [ -89637.395491554605542, -2522501.631898086518049 ] } }
+]
+}
